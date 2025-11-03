@@ -5,6 +5,7 @@ import { Box } from "@mui/material";
 import Footer from "./components/Footer";
 import HeroSection from "./HeroSection";
 import Dashboard from "./components/Dashboard";
+import About from "./components/About";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Header />
       <HeroSection />
       <Dashboard />
+      <About />
       <Footer />
     </Box>
   );
