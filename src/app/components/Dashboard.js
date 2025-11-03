@@ -92,54 +92,56 @@ const Dashboard = () => {
             backgroundImage: `url(${"./images/fotter_image.png"})`,
           }}
         >
-          <CardMedia
-            component={"image"}
-            image="./images/food1.png"
-            alt="food"
-            sx={{ width: "270px", height: "222px" }}
-          />
-          <Stack direction={"row"} sx={{ gap: "150px", marginLeft: "40px" }}>
-            <Typography
-              sx={{
-                fontFamily: "Inter",
-                fontSize: "24px",
-                fontWeight: "600",
-                color: "white",
-              }}
+          <Stack direction={"column"}>
+            <CardMedia
+              component={"image"}
+              image="./images/food2.png"
+              alt="food"
+              sx={{ width: "270px", height: "230px" }}
+            />
+            <Stack direction={"row"} sx={{ gap: "150px", marginLeft: "40px" }}>
+              <Typography
+                sx={{
+                  fontFamily: "Inter",
+                  fontSize: "24px",
+                  fontWeight: "600",
+                  color: "white",
+                }}
+              >
+                $40
+              </Typography>
+              <InfoOutlineIcon fontSize="large" sx={{ color: "white" }} />
+            </Stack>
+            <Stack
+              direction={"row"}
+              sx={{ gap: "30px", marginLeft: "40px", marginTop: "10px" }}
             >
-              $40
-            </Typography>
-            <InfoOutlineIcon fontSize="large" sx={{ color: "white" }} />
-          </Stack>
-          <Stack
-            direction={"row"}
-            sx={{ gap: "30px", marginLeft: "40px", marginTop: "10px" }}
-          >
-            <Typography
-              sx={{
-                fontFamily: "Inter",
-                fontSize: "24px",
-                fontWeight: "400",
-                color: "white",
-                width: "147px",
-                height: "46px",
-              }}
-            >
-              Whole Grain Bread
-            </Typography>
-            <Button
-              sx={{
-                bgcolor: "#933C24",
-                width: "71px",
-                height: "49px",
-                color: "white",
-                textTransform: "none",
-                marginTop: "10px",
-                fontSize: "24px",
-              }}
-            >
-              Add
-            </Button>
+              <Typography
+                sx={{
+                  fontFamily: "Inter",
+                  fontSize: "24px",
+                  fontWeight: "400",
+                  color: "white",
+                  width: "147px",
+                  height: "46px",
+                }}
+              >
+                Whole Grain Bread
+              </Typography>
+              <Button
+                sx={{
+                  bgcolor: "#933C24",
+                  width: "71px",
+                  height: "49px",
+                  color: "white",
+                  textTransform: "none",
+                  marginTop: "10px",
+                  fontSize: "24px",
+                }}
+              >
+                Add
+              </Button>
+            </Stack>
           </Stack>
         </Box>
         <Box
@@ -149,54 +151,56 @@ const Dashboard = () => {
             backgroundImage: `url(${"./images/fotter_image.png"})`,
           }}
         >
-          <CardMedia
-            component={"image"}
-            image="./images/food1.png"
-            alt="food"
-            sx={{ width: "270px", height: "222px" }}
-          />
-          <Stack direction={"row"} sx={{ gap: "150px", marginLeft: "40px" }}>
-            <Typography
-              sx={{
-                fontFamily: "Inter",
-                fontSize: "24px",
-                fontWeight: "600",
-                color: "white",
-              }}
+          <Stack direction={"column"}>
+            <CardMedia
+              component={"image"}
+              image="./images/food3.png"
+              alt="food"
+              sx={{ width: "270px", height: "222px" }}
+            />
+            <Stack direction={"row"} sx={{ gap: "150px", marginLeft: "40px" }}>
+              <Typography
+                sx={{
+                  fontFamily: "Inter",
+                  fontSize: "24px",
+                  fontWeight: "600",
+                  color: "white",
+                }}
+              >
+                $40
+              </Typography>
+              <InfoOutlineIcon fontSize="large" sx={{ color: "white" }} />
+            </Stack>
+            <Stack
+              direction={"row"}
+              sx={{ gap: "30px", marginLeft: "40px", marginTop: "10px" }}
             >
-              $40
-            </Typography>
-            <InfoOutlineIcon fontSize="large" sx={{ color: "white" }} />
-          </Stack>
-          <Stack
-            direction={"row"}
-            sx={{ gap: "30px", marginLeft: "40px", marginTop: "10px" }}
-          >
-            <Typography
-              sx={{
-                fontFamily: "Inter",
-                fontSize: "24px",
-                fontWeight: "400",
-                color: "white",
-                width: "147px",
-                height: "46px",
-              }}
-            >
-              Whole Grain Bread
-            </Typography>
-            <Button
-              sx={{
-                bgcolor: "#933C24",
-                width: "71px",
-                height: "49px",
-                color: "white",
-                textTransform: "none",
-                marginTop: "10px",
-                fontSize: "24px",
-              }}
-            >
-              Add
-            </Button>
+              <Typography
+                sx={{
+                  fontFamily: "Inter",
+                  fontSize: "24px",
+                  fontWeight: "400",
+                  color: "white",
+                  width: "147px",
+                  height: "46px",
+                }}
+              >
+                Whole Grain Bread
+              </Typography>
+              <Button
+                sx={{
+                  bgcolor: "#933C24",
+                  width: "71px",
+                  height: "49px",
+                  color: "white",
+                  textTransform: "none",
+                  marginTop: "10px",
+                  fontSize: "24px",
+                }}
+              >
+                Add
+              </Button>
+            </Stack>
           </Stack>
         </Box>
       </Stack>
@@ -216,111 +220,56 @@ const Dashboard = () => {
             backgroundImage: `url(${"./images/fotter_image.png"})`,
           }}
         >
-          <CardMedia
-            component={"image"}
-            image="./images/food1.png"
-            alt="food"
-            sx={{ width: "270px", height: "222px" }}
-          />
-          <Stack direction={"row"} sx={{ gap: "150px", marginLeft: "40px" }}>
-            <Typography
-              sx={{
-                fontFamily: "Inter",
-                fontSize: "24px",
-                fontWeight: "600",
-                color: "white",
-              }}
+          <Stack direction={"column"} sx={{ marginLeft: "20px" }}>
+            <CardMedia
+              component={"image"}
+              image="./images/food4.png"
+              alt="food"
+              sx={{ width: "100%", height: "280px" }}
+            />
+            <Stack direction={"row"} sx={{ gap: "150px", marginLeft: "40px" }}>
+              <Typography
+                sx={{
+                  fontFamily: "Inter",
+                  fontSize: "24px",
+                  fontWeight: "600",
+                  color: "white",
+                }}
+              >
+                $40
+              </Typography>
+              <InfoOutlineIcon fontSize="large" sx={{ color: "white" }} />
+            </Stack>
+            <Stack
+              direction={"row"}
+              sx={{ gap: "30px", marginLeft: "40px", marginTop: "10px" }}
             >
-              $40
-            </Typography>
-            <InfoOutlineIcon fontSize="large" sx={{ color: "white" }} />
-          </Stack>
-          <Stack
-            direction={"row"}
-            sx={{ gap: "30px", marginLeft: "40px", marginTop: "10px" }}
-          >
-            <Typography
-              sx={{
-                fontFamily: "Inter",
-                fontSize: "24px",
-                fontWeight: "400",
-                color: "white",
-                width: "147px",
-                height: "46px",
-              }}
-            >
-              Whole Grain Bread
-            </Typography>
-            <Button
-              sx={{
-                bgcolor: "#933C24",
-                width: "71px",
-                height: "49px",
-                color: "white",
-                textTransform: "none",
-                marginTop: "10px",
-                fontSize: "24px",
-              }}
-            >
-              Add
-            </Button>
-          </Stack>
-        </Box>
-        <Box
-          sx={{
-            width: "360px",
-            height: "411px",
-            backgroundImage: `url(${"./images/fotter_image.png"})`,
-          }}
-        >
-          <CardMedia
-            component={"image"}
-            image="./images/food1.png"
-            alt="food"
-            sx={{ width: "270px", height: "222px" }}
-          />
-          <Stack direction={"row"} sx={{ gap: "150px", marginLeft: "40px" }}>
-            <Typography
-              sx={{
-                fontFamily: "Inter",
-                fontSize: "24px",
-                fontWeight: "600",
-                color: "white",
-              }}
-            >
-              $40
-            </Typography>
-            <InfoOutlineIcon fontSize="large" sx={{ color: "white" }} />
-          </Stack>
-          <Stack
-            direction={"row"}
-            sx={{ gap: "30px", marginLeft: "40px", marginTop: "10px" }}
-          >
-            <Typography
-              sx={{
-                fontFamily: "Inter",
-                fontSize: "24px",
-                fontWeight: "400",
-                color: "white",
-                width: "147px",
-                height: "46px",
-              }}
-            >
-              Whole Grain Bread
-            </Typography>
-            <Button
-              sx={{
-                bgcolor: "#933C24",
-                width: "71px",
-                height: "49px",
-                color: "white",
-                textTransform: "none",
-                marginTop: "10px",
-                fontSize: "24px",
-              }}
-            >
-              Add
-            </Button>
+              <Typography
+                sx={{
+                  fontFamily: "Inter",
+                  fontSize: "24px",
+                  fontWeight: "400",
+                  color: "white",
+                  width: "147px",
+                  height: "46px",
+                }}
+              >
+                Whole Grain Bread
+              </Typography>
+              <Button
+                sx={{
+                  bgcolor: "#933C24",
+                  width: "71px",
+                  height: "49px",
+                  color: "white",
+                  textTransform: "none",
+                  marginTop: "10px",
+                  fontSize: "24px",
+                }}
+              >
+                Add
+              </Button>
+            </Stack>
           </Stack>
         </Box>
         <Box
@@ -330,54 +279,115 @@ const Dashboard = () => {
             backgroundImage: `url(${"./images/fotter_image.png"})`,
           }}
         >
-          <CardMedia
-            component={"image"}
-            image="./images/food1.png"
-            alt="food"
-            sx={{ width: "270px", height: "222px" }}
-          />
-          <Stack direction={"row"} sx={{ gap: "150px", marginLeft: "40px" }}>
-            <Typography
-              sx={{
-                fontFamily: "Inter",
-                fontSize: "24px",
-                fontWeight: "600",
-                color: "white",
-              }}
+          <Stack direction={"column"}>
+            <CardMedia
+              component={"image"}
+              image="./images/food5.png"
+              alt="food"
+              sx={{ width: "270px", height: "280px" }}
+            />
+            <Stack direction={"row"} sx={{ gap: "150px", marginLeft: "40px" }}>
+              <Typography
+                sx={{
+                  fontFamily: "Inter",
+                  fontSize: "24px",
+                  fontWeight: "600",
+                  color: "white",
+                }}
+              >
+                $40
+              </Typography>
+              <InfoOutlineIcon fontSize="large" sx={{ color: "white" }} />
+            </Stack>
+            <Stack
+              direction={"row"}
+              sx={{ gap: "30px", marginLeft: "40px", marginTop: "10px" }}
             >
-              $40
-            </Typography>
-            <InfoOutlineIcon fontSize="large" sx={{ color: "white" }} />
+              <Typography
+                sx={{
+                  fontFamily: "Inter",
+                  fontSize: "24px",
+                  fontWeight: "400",
+                  color: "white",
+                  width: "147px",
+                  height: "46px",
+                }}
+              >
+                Whole Grain Bread
+              </Typography>
+              <Button
+                sx={{
+                  bgcolor: "#933C24",
+                  width: "71px",
+                  height: "49px",
+                  color: "white",
+                  textTransform: "none",
+                  marginTop: "10px",
+                  fontSize: "24px",
+                }}
+              >
+                Add
+              </Button>
+            </Stack>
           </Stack>
-          <Stack
-            direction={"row"}
-            sx={{ gap: "30px", marginLeft: "40px", marginTop: "10px" }}
-          >
-            <Typography
-              sx={{
-                fontFamily: "Inter",
-                fontSize: "24px",
-                fontWeight: "400",
-                color: "white",
-                width: "147px",
-                height: "46px",
-              }}
+        </Box>
+        <Box
+          sx={{
+            width: "360px",
+            height: "411px",
+            backgroundImage: `url(${"./images/fotter_image.png"})`,
+          }}
+        >
+          <Stack direction={"column"}>
+            <CardMedia
+              component={"image"}
+              image="./images/food6.png"
+              alt="food"
+              sx={{ width: "270px", height: "280px", alignSelf: "center" }}
+            />
+            <Stack direction={"row"} sx={{ gap: "150px", marginLeft: "40px" }}>
+              <Typography
+                sx={{
+                  fontFamily: "Inter",
+                  fontSize: "24px",
+                  fontWeight: "600",
+                  color: "white",
+                }}
+              >
+                $40
+              </Typography>
+              <InfoOutlineIcon fontSize="large" sx={{ color: "white" }} />
+            </Stack>
+            <Stack
+              direction={"row"}
+              sx={{ gap: "30px", marginLeft: "40px", marginTop: "10px" }}
             >
-              Whole Grain Bread
-            </Typography>
-            <Button
-              sx={{
-                bgcolor: "#933C24",
-                width: "71px",
-                height: "49px",
-                color: "white",
-                textTransform: "none",
-                marginTop: "10px",
-                fontSize: "24px",
-              }}
-            >
-              Add
-            </Button>
+              <Typography
+                sx={{
+                  fontFamily: "Inter",
+                  fontSize: "24px",
+                  fontWeight: "400",
+                  color: "white",
+                  width: "147px",
+                  height: "46px",
+                }}
+              >
+                Whole Grain Bread
+              </Typography>
+              <Button
+                sx={{
+                  bgcolor: "#933C24",
+                  width: "71px",
+                  height: "49px",
+                  color: "white",
+                  textTransform: "none",
+                  marginTop: "10px",
+                  fontSize: "24px",
+                }}
+              >
+                Add
+              </Button>
+            </Stack>
           </Stack>
         </Box>
       </Stack>
